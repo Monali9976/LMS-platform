@@ -1,16 +1,3 @@
-// function findChapterByQuestion(questionText) {
-//   questionText = questionText.toLowerCase();
-
-//   if (questionText.includes("chlorophyll")) return "Chapter 4";
-//   if (questionText.includes("calvin cycle")) return "Chapter 5";
-
-//   // Default fallback
-//   return "Chapter 1";
-// }
-
-// module.exports = { findChapterByQuestion };/
-
-
 // src/services/contentMapper.js
 const Material = require("../models/Material");
 
