@@ -6,6 +6,14 @@ cd LMS-platform
 ## Install dependencies:
 npm install
 
+## env file
+Create a `.env` file in the root directory and add the following variables:
+
+SARVAM_API_KEY=your_api_key_here
+MONGODB_URI=mongodb://127.0.0.1:27017/lms_demo
+PORT=4000
+SARVAM_BASE=https://api.sarvam.ai
+
 ## Start the server:
 npm start
 
